@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   width: 410px;
-  height: 4910px;
+  /* height: 4910px; */
   background: #fff;
 }
 
@@ -94,3 +94,140 @@ button:hover {
   background-color: rgb(156, 131, 131);
   text-decoration: underline;
 }
+
+main {
+  /* border: 2px solid red;
+  height: 160px;
+  margin-top: 32px; */
+  display:flex;
+ flex-direction: column;
+}
+
+.works {
+  display: flex;
+  flex-direction: column;
+}
+
+.thur {
+  position: absolute;
+  width: 320px;
+  height: 160px;
+  left: 0px;
+  top: 472px;
+  background-image: url(works-images/Thur.png);
+  /* background: #C4C4C4; */
+  border: 2px solid red;
+}
+
+h2 {
+  position: absolute;
+  width: 181px;
+  height: 50px;
+  left: 16px;
+  top: 672px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1A2236;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.card1 {
+  display: flex;
+}
+
+.image1 {
+position: absolute;
+width: 320px;
+height: 186px;
+left: 0px;
+top: 754px;
+background: url(works-images/laptop1.svg);
+border: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
+
+.detail {
+  display: flex;
+  background: black;
+}
+
+span {
+  position: absolute;
+  width: 264px;
+  height: 16px;
+  left: 20px;
+  top: 960px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 80%;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  position: absolute;
+  width: 69px;
+  height: 20px;
+  top: 992px;
+}
+
+.see {
+  display: flex;
+  background: black;
+  /* border: 2px solid black; */
+}
+
+h3 {
+  position: absolute;
+  width: 124px;
+  height: 24px;
+  left: 30px;
+  top: 1042px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.arrow {
+  position: absolute;
+width: 20.57px;
+height: 15.35px;
+left: 166px;
+top: 1046px;
+background: black;
+  background-image: url(works-images/arrow.png); 
+}
+
+.card2 {
+  display: flex;
+}
+
+.image2 {
+  border: 2px solid red;
+}
+
+.card3 {
+  display: flex;
+}
+
+.card4 {
+  display: flex;
+}
+
+/* .about {
+  border: 2px solid blue;
+} */
+
