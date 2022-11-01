@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 4910px;
+  background: #fff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 440px;
+}
+
+.toolbar {
+  height: 78px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 111px;
+  height: 74px;
+  background-image: url(images/shape1.png);
+}
+
+.menu {
+  width: 20px;
+  height: 14px;
+  align-self: center;
+  margin-right: 19px;
+  background-image: url(images/ic_menu.svg);
+  background-position: top right;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  position: absolute;
+  width: 220px;
+  height: 100px;
+  left: 16px;
+  top: 104px;
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+p {
+  position: absolute;
+  height: 126px;
+  left: 16px;
+  right: 16px;
+  top: 224px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+}
+
+button {
+  position: absolute;
+  height: 50px;
+  left: 16px;
+  right: 16px;
+  top: 390px;
+  background: #1a2236;
+  color: white;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  padding: 12px 42px;
+}
+
+button:hover {
+  background-color: rgb(156, 131, 131);
+  text-decoration: underline;
+}
+
+.thur {
+  position: absolute;
+  width: auto;
+  height: 160px;
+  left: 0;
+  right: 0;
+  top: 472px;
+  background-image: url(images/Thur.png);
+}
