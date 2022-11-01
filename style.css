@@ -2,20 +2,17 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  width: 410px;
   height: 4910px;
   background: #fff;
 }
 
-header {
+main {
   display: flex;
   flex-direction: column;
   height: 440px;
-  width: 410px;
 }
 
 .toolbar {
-  width: 410px;
   height: 78px;
   display: flex;
   flex-direction: row;
@@ -38,7 +35,6 @@ header {
 }
 
 .headline {
-  height: 362px;
   display: flex;
   flex-direction: column;
 }
@@ -59,9 +55,9 @@ h1 {
 
 p {
   position: absolute;
-  width: 288px;
   height: 126px;
   left: 16px;
+  right: 16px;
   top: 224px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -74,9 +70,9 @@ p {
 
 button {
   position: absolute;
-  width: 288px;
   height: 50px;
   left: 16px;
+  right: 16px;
   top: 390px;
   background: #1a2236;
   color: white;
@@ -93,4 +89,14 @@ button {
 button:hover {
   background-color: rgb(156, 131, 131);
   text-decoration: underline;
+}
+
+.thur {
+  position: absolute;
+  width: auto;
+  height: 160px;
+  left: 0;
+  right: 0;
+  top: 472px;
+  background-image: url(images/Thur.png);
 }
